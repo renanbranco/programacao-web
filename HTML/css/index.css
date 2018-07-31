@@ -1,3 +1,18 @@
 body {
-	background: blue;
+	background-image: url(../imagens/paisagem.jpg);
+	background-repeat: no-repeat;
+	height: 100%;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+}
+
+h1 {
+	font-size: 50px;
+	font-weight: 500;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+p {
+	color: #FFFFFF;
 }
