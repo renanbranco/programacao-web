@@ -1,0 +1,47 @@
+1º Semestre
+Formação Geral 
+Algoritmos e Lógica de Programação 
+Matemática Aplicada à Computação
+Fundamentos de Arquitetura de Computadores 	
+Projeto Integrador I 	
+Atividades Complementares 1
+
+2º Semestre
+Leitura e Interpretação de Textos 
+Engenharia de Software 	
+Modelagem de Dados 
+Programação Estruturada 	
+Fundamentos de Redes de Computadores 	
+Projeto Integrador II 	
+Atividades Complementares 2
+
+3º Semestre
+Banco de Dados
+Análise de Sistemas Orientada a Objetos 
+Programação Orientada a Objetos 
+Projeto Integrador III 
+Atividades Complementares 3
+
+4º Semestre
+Programação Web 
+Fundamentos de Sistemas Operacionais 	
+Modelagem de Processo de Negócio 
+Ética e Legislação Profissional 	
+Projeto Integrador IV 
+Atividades Complementares 4
+
+5º Semestre
+Programação para Dispositivos Móveis 
+Gerência de Projetos de Sistemas 
+Programação Visual 
+Tópicos em Banco de Dados 
+Projeto Integrador V 
+Estágio Curricular Supervisionado I
+
+6º Semestre
+Empreendedorismo 
+Qualidade de Software 
+Metodologias de Desenvolvimento Agil 
+Tópicos Especiais em Análise e Desenvolvimento de Sistemas 	
+Estágio Curricular Supervisionado II 
+

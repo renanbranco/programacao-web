@@ -18,7 +18,15 @@ p {
 body > p {
 	margin: 0px 200px 0px 200px;
 }
-
+div#menu {
+	width: 100%;
+	height: 50px;
+	display: flex;
+}
+div#menu > ul.menu-list {
+	display: flex;
+	color: block;
+}
 div#banner {
 	background-image: url(../imagens/tecnologia-e-inovacao.jpg);
 	display: flex;

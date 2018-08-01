@@ -1,0 +1,27 @@
+Crie um site em HTML para o curso de ADS. A página inicial deverá conter:
+
+
+
+1.Um cabeçalho com o nome da faculdade e outro com o nome do curso.
+
+
+
+2.Uma imagem com o logotipo da faculdade.
+
+
+
+3.Um Link chamado “Professores” que levará o usuário para outra página, onde conterá uma tabela com o nome dos professores, disciplinas, e e-mails com link (ao menos 5).
+
+
+
+4.Um Link chamado “Alunos” que levará o usuário para outra página, onde conterá uma lista ordenada com os nomes dos alunos (ao menos 10).
+
+
+
+5.Um Link chamado “Grade curricular” que levará o usuário para outra página, onde conterá uma Lista com os semestres do curso, e cada semestre terá uma sublista com suas disciplinas. No início da página deverá existir um índice (com âncora) por semestre, que rolará a página automaticamente até o semestre selecionado.
+
+
+
+Obs: todas as páginas devem ter um link para voltar para a página principal.
+
+Obs²: os arquivos necessários para execução do exercício estão listados abaixo.
