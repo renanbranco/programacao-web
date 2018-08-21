@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Aula javaScript</title>
+		<script>
+			// function exibirMensagem(mensagem) {
+			// 	alert(mensagem);
+			// }
+			// function exibirTitulo() {
+			// 	var divConteudo = document.getElementById('conteudo');
+			// 	var html = "";
+
+			// 	for (var i = 1; i <= 6; i++) {
+			// 		html += "<h" + i + ">Cabeçalho " + i + "</h" + i + ">";
+			// 	}
+			// 	divConteudo.innerHTML = html;
+			// }
+		
+			var animais = ["Cachorro","Gato","Rato","Tartaruga"];
+
+			function exibeAnimais() {
+				var divConteudo = document.getElementById('conteudo');
+				var html = '<table border="1">'
+						   '<tr>';
+
+				for (var i in animais) {
+					var animal = animais[i];
+					html += '<td>' + animal + '</td>';
+				}
+				
+				html += '</tr>'
+						'</table>';
+				divConteudo.innerHTML = html;
+			}
+
+		</script>
+	</head>
+	<body>
+		<!-- <h1>Aula de JavaScript</h1> -->
+
+		<div id="conteudo"></div>
+
+		<!--<script>
+			 var divConteudo = document.getElementById('conteudo');
+			 divConteudo.innerText = 'Hoje estou aprendendo javascript';
+		</script> -->
+
+		<!-- <script>
+			var divConteudo = document.getElementById('conteudo');
+			var dataAtual   = new(Date);
+			var horaAtual   = dataAtual.getHours();
+			if (horaAtual >= 18) {
+				divConteudo.innerText = 'Boa noite.'
+			} else if (horaAtual >= 12) {
+				divConteudo.innerText = 'Boa tarde.'
+			} else {
+				divConteudo.innerText = 'Bom dia.'
+			}
+		</script> -->
+
+		<!-- <script>
+			var divConteudo = document.getElementById('conteudo');
+			var resultado   = confirm('Escolha uma opção.');
+
+			if (resultado) {
+				divConteudo.innerText = 'Você clicou em ok'
+			} else {
+				divConteudo.innerText = 'Você clicou em cancelar'
+			}
+		</script> -->
+
+		<!-- <script>
+			var divConteudo = document.getElementById('conteudo');
+			var nome    = prompt('Informe seu nome');
+			var anoNasc = prompt('Ano de nascimento');
+	
+			//Valores que são considerados falsos no JavaScript
+			// null
+			// undefined
+			// false
+			// 0
+			// ''
+
+			anoNasc = parseInt(anoNasc);
+
+			anoNasc = (2018 - anoNasc);
+
+			if (anoNasc >= 18) {
+				divConteudo.innerText = 'Olá ' + nome + ', este conteúdo é permitido para você!';
+			} else {
+				divConteudo.innerHTML = 'Visite <a href="https://www.disney.com/">www.disney.com/</a>';
+			}
+		</script> -->
+
+			<button onclick="exibeAnimais();">Exibir Animais</button>
+	</body>
+</html>

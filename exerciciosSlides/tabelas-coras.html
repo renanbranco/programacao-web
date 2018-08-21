@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Tabela de Cores</title>
+		<script>
+			var red = new Array("00","33","66","99","CC","FF"); 
+			var green = new Array("00","33","66","99","CC","FF"); 
+			var blue = new Array("00","33","66","99","CC","FF");
+		</script>
+	</head>
+	<body>
+		<table border="1"> 
+			<script> 
+				for (var i = 0; i < red.length; i++) {
+				 	var r = red[i];
+				 	for (var y = 0; y < green.length; y++) {
+				 		var g = green[y];
+				 		document.write('<tr>');
+				 		for (var j = 0; j < blue.length; j++) {
+				 			var b     		   =  blue[j];
+				 			var color 		   = "#" + r + g + b;
+				 			var openParagraph  = '<td style="background-color: ' + color + '">';
+				 			var closeParegraph = "</td>";
+				 			document.write(openParagraph + color +  closeParegraph);
+				 		}
+				 		document.write('</tr>');
+				 	}
+				}
+			</script> 
+		</table> 
+	</body>
+</html>
